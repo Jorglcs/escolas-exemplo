@@ -50,3 +50,6 @@ O workflow `.github/workflows/deploy.yml` instala as dependências com `npm ci`,
 No GitHub, em **Settings → Pages → Build and deployment → Source**, selecione **GitHub Actions**. O repositório deve ser público para usar Pages no plano gratuito. As permissões de publicação ficam restritas ao job de deploy.
 
 Para domínio próprio, configure o endereço em **Settings → Pages → Custom domain**. No Cloudflare, crie um registro **CNAME** para o subdomínio desejado apontando para **jorglcs.github.io**, com **DNS only** e TTL automático. O destino não deve conter o nome do repositório nem `https://`. Aguarde a validação de DNS e a emissão do certificado e ative **Enforce HTTPS** no GitHub. Não é necessário um arquivo CNAME quando a publicação usa GitHub Actions.
+
+Endereço do exemplo: https://escola-exemplo.jorglcs.me
+
